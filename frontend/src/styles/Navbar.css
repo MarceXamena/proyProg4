@@ -1,0 +1,30 @@
+/* Estilos generales */
+.navbar {
+    background-color: #2c3e50; /* Fondo oscuro */
+    padding: 1rem;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centrar los elementos */
+    gap: 1rem; /* Espacio entre enlaces */
+  }
+  
+  .navbar-item {
+    margin: 0;
+  }
+  
+  .navbar-link {
+    text-decoration: none; /* Quitar subrayado */
+    color: #ecf0f1; /* Color claro para contraste */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    transition: color 0.3s; /* Animación al pasar el mouse */
+  }
+  
+  .navbar-link:hover {
+    color: #3498db; /* Cambiar color al pasar el mouse */
+  }
+  
